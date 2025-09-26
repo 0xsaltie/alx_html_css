@@ -1,6 +1,1 @@
-Requirements
-General
-All your files should end with a new line
-A README.md file, at the root of the folder of the project is mandatory
-You are not allowed to install, import or use external libraries. This website must be build with only HTML/CSS/JavaScript. No NodeJS, React, VueJS, Bootstrap, etc.
-Your code should be W3C compliant and validate with W3C-Validator
+<a href="https://github.com/0xsaltie/alx_html_css/tree/main/css_basic">css_basic</a> ----- learning about basic of css
