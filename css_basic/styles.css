@@ -25,3 +25,104 @@ header,
 footer {
   flex: 0 0 auto;             /* don’t stretch header/footer */
 }
+
+/* Reset / Base */
+body {
+  margin: 0;
+  font-family: "Segoe UI", Arial, sans-serif;
+  background: #f4f6f8;   /* soft light gray */
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Header */
+header {
+  background: #1da1f2; /* Twitter blue */
+  padding: 0.5rem 1rem;
+}
+
+header ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+header li {
+  margin-right: 1.5rem;
+}
+
+header a {
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+  transition: color 0.3s;
+}
+
+header a:hover {
+  color: #ffe066; /* warm yellow accent */
+}
+
+/* Main Layout */
+main {
+  display: flex;
+  gap: 2rem;
+  max-width: 1000px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+/* Article */
+article {
+  flex: 3;
+  background: white;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+article h1 {
+  margin-top: 0;
+  color: #1da1f2; /* Twitter blue accent */
+  border-bottom: 2px solid #e6ecf0;
+  padding-bottom: 0.5rem;
+}
+
+article a {
+  color: #1da1f2;
+  text-decoration: none;
+}
+
+article a:hover {
+  text-decoration: underline;
+}
+
+/* Aside */
+aside {
+  flex: 1;
+  background: #ffffff;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  font-size: 0.9rem;
+  color: #555;
+}
+
+/* Footer */
+footer {
+  background: #1a1a1a;
+  color: #bbb;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+}
+
+footer a {
+  color: #1da1f2;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
