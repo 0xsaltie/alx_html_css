@@ -7,7 +7,7 @@ Built with **HTML5** and **CSS3 (Flexbox + Grid)** only.
 
 ## 📸 Preview
 
-![SmileSchool Landing Page](./screenshot.jpg)
+![SmileSchool Landing Page](.\images\project.jpg)
 
 *(Replace `screenshot.jpg` with the actual screenshot file from your project folder. You can rename your uploaded design file to `screenshot.jpg` for consistency.)*
 
